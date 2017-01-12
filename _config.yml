@@ -3,7 +3,7 @@ highlighter: rogue
 name: nrl's blog
 description: Just try to start blogging my coding life
 url: "http:yknnnnft.github.io/"
-
+title: "nrl's Blog"
 exclude: [LICENSE, README.md, .gitignore]
 
 # Build settings
