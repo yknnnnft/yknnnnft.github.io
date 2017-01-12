@@ -1,2 +1,10 @@
-baseurl: /yknnnnft
+# General Jekyll config
+highlighter: rogue
+name: nrl's blog
+description: Just try to start blogging my coding life
+url: "http:yknnnnft.github.io/"
 
+exclude: [LICENSE, README.md, .gitignore]
+
+# Build settings
+theme: minima
