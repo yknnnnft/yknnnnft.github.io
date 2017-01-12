@@ -7,4 +7,4 @@ url: "http:yknnnnft.github.io/"
 exclude: [LICENSE, README.md, .gitignore]
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
