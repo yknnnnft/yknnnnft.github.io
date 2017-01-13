@@ -7,4 +7,4 @@ title: "nrl's Blog"
 exclude: [LICENSE, README.md, .gitignore]
 
 # Build settings
-theme: jekyll-theme-minima
+theme: minima
