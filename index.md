@@ -1,6 +1,6 @@
 ---
 title: My blog
-layout: home
+layout: default
 ---
 Hello, World!
   {% for post in site.posts %}
