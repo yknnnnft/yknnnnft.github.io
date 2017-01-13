@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: Hello World
 ---
 >Hello World
->>and Say Hello to Markdown
+
+and Say Hello to Markdown
