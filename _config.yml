@@ -1,5 +1,5 @@
 # General Jekyll config
-highlighter: rogue
+highlighter: rouge
 name: nrl's blog
 description: Just try to start blogging my coding life
 url: "http:yknnnnft.github.io/"
