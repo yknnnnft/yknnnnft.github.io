@@ -2,7 +2,7 @@
 highlighter: rouge
 name: nrl's blog
 description: Just try to start blogging my coding life
-baseurl: "http:yknnnnft.github.io/"
+url: "http:yknnnnft.github.io/"
 title: "nrl's Blog"
 exclude: [LICENSE, README.md, .gitignore]
 
