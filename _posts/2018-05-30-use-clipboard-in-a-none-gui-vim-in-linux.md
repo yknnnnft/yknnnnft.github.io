@@ -13,7 +13,7 @@ sudo apt-get install libx11-dev libxtst-dev libxt-dev libsm-dev libxpm-dev
 ```
 
 # compile vim  
-## configure
+- configure  
 ```
 sudo ./configure \
     --with-features=huge \
@@ -31,26 +31,21 @@ sudo ./configure \
     --enable-pythoninterp=dynamic \
     --enable-python3interp=dynamic \
     --enable-rubyinterp=dynamic
-```
-
-succeeded if 
+```  
+- succeeded if  
 ```
 #define HAVE_X11 1
 ```
-is shown
-
-
-## make
+is shown  
+- make  
 ```
 sudo make clean all
-```
-
-## install
+```  
+- install  
 ```
 sudo make install
-```
-
-## check
+```  
+- check  
 check by executing
 ```
 vim version | grep clipboard
@@ -63,7 +58,7 @@ set clipboard=unnamedplus
 ```
 
 # practical use
-| | normal mode | insert mode |
-|:---:|:---:|:---:|
-| yank | "+y | |
-| paste | "+p | S-C-V |
+| | normal mode | insert mode |  
+|:---:|:---:|:---:|  
+| yank | "+y | |  
+| paste | "+p | S-C-V |  
