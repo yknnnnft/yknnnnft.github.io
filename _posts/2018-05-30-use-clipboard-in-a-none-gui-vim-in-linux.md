@@ -32,7 +32,7 @@ sudo ./configure \
     --enable-python3interp=dynamic \
     --enable-rubyinterp=dynamic
 ```  
-- succeeded if  
+succeeded if  
 ```
 #define HAVE_X11 1
 ```
