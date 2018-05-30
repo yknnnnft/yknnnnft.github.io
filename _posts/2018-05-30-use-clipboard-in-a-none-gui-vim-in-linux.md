@@ -36,7 +36,10 @@ sudo ./configure \
 ```
 #define HAVE_X11 1
 ```
-is shown  
+is shown when executing  
+```
+grep X11 src/auto/config.h
+```  
 - make  
 ```
 sudo make clean all
