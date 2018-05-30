@@ -8,9 +8,12 @@ git clone https://github.com/vim/vim.git
 ```
 
 # Install lib necessary for X11 support in ubuntu  
+```
 sudo apt-get install libx11-dev libxtst-dev libxt-dev libsm-dev libxpm-dev
+```
 
 # compile vim  
+## configure
 ```
 sudo ./configure \
     --with-features=huge \
@@ -37,12 +40,17 @@ succeeded if
 is shown
 
 
+## make
 ```
 sudo make clean all
+```
 
+## install
+```
 sudo make install
 ```
 
+## check
 check by executing
 ```
 vim version | grep clipboard
@@ -57,5 +65,5 @@ set clipboard=unnamedplus
 # practical use
 | | normal mode | insert mode |
 |:---:|:---:|:---:|
-|yank |"+y | |
-|paste |"+p | S-C-V |
+| yank | "+y | |
+| paste | "+p | S-C-V |
