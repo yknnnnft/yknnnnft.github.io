@@ -61,7 +61,8 @@ set clipboard=unnamedplus
 ```
 
 # practical use
-| | normal mode | insert mode |  
-|:---:|:---:|:---:|  
-| yank | "+y | |  
-| paste | "+p | S-C-V |  
+<table align="center">
+  <tr><th align="center"></th><th align="center">normal mode</th><th align="center">insert mode</th></tr>
+  <tr><td>yank</td><td>"+y</td><td></td></tr>
+  <tr><td>paste</td><td>"+p</td><td>S-C-V</td></tr>
+</table>
