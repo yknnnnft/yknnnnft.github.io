@@ -34,7 +34,7 @@ $ git clone https://github.com/sample.git
 ```  
 - setup remote url  
 ```
-$ git remote set-url git+ssh://github.com/sample.git
+$ git remote set-url origin git+ssh://github.com/sample.git
 ```
 
 # access github with local ssh key
