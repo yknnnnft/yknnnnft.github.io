@@ -5,6 +5,7 @@ description: Just try to start blogging my coding life
 url: "http:yknnnnft.github.io/"
 title: "nrl's Blog"
 exclude: [LICENSE, README.md, .gitignore]
+github_username:  yknnnnft
 
 # Build settings
 theme: minima
