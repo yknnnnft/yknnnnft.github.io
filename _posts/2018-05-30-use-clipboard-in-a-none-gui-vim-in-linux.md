@@ -13,6 +13,11 @@ sudo apt-get install libx11-dev libxtst-dev libxt-dev libsm-dev libxpm-dev
 ```
 
 # compile vim  
+- clear cached files by previous execution of configure
+```
+~ $ cd git/vim
+~/git/vim $ sudo rm src/auto/config.cache
+```
 - configure  
 ```
 sudo ./configure \
@@ -22,15 +27,17 @@ sudo ./configure \
     --enable-gnome-check \
     --with-x \
     --enable-multibyte \
-    --enable-luainterp=dynamic \
     --enable-gpm \
     --enable-cscope \
     --enable-fontset \
     --enable-fail-if-missing \
     --prefix=/usr/local \
+    --enable-luainterp=dynamic \
     --enable-pythoninterp=dynamic \
     --enable-python3interp=dynamic \
-    --enable-rubyinterp=dynamic
+    --enable-perlinterp=dynamic \
+    --enable-rubyinterp=dynamic \
+    --enable-tclinterp=dynamic
 ```  
 succeeded if  
 ```
