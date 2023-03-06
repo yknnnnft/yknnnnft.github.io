@@ -33,7 +33,6 @@ sudo ./configure \
     --enable-fail-if-missing \
     --prefix=/usr/local \
     --enable-luainterp=dynamic \
-    --enable-pythoninterp=dynamic \
     --enable-python3interp=dynamic \
     --enable-perlinterp=dynamic \
     --enable-rubyinterp=dynamic \
